@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/icons8-batman-antigo-color-32.png" type="image/x-icon">
+    <title>Studying</title> <!--nome da aba-->
+</head>
+<body>
+    <h1>Curso de HTML e CSS</h1> <!--Título nível 1-->
+    <h2> Estou estudando tudo denovo</h2>
+    <hr> <!--linha horizontal-->
+    <p>Estou estudando HTML e CSS pela segunda vez por causo do Front-End, depois que terminar ir pra JavaScript <br> a tag &lt;br&gt; serve para quebrar o parágrafo </p> <!--less than e greater than-->
+    <p>vamo ver até onde esse site vai</p>
+
+    <hr>
+
+    <h3>Emoji</h3>
+    <p>pra colocar emoji <br>o cara que estuda java &#x1F480;<br>todo pai usa: &#x1F44D; </p> <!--tem que colocar o &#x na frente do código-->
+    <hr>
+
+    <h3>Imagens</h3>
+    <p>agora vamo colocar imagens no site (a imagem tem que ta na mesma pasta do index)</p>
+    <p>a dimensão das imagens está em 200px</p>
+
+    <figure>
+        <img src="html200.png" alt="Imagem HTML5">
+        <figcaption>Fonte: Google</figcaption>
+    </figure> <!--CTRL + Espaço vai aparecer as opções-->
+
+    <hr>
+    <p>também é possível carregar imagens de sub-pastas.</p>
+    <img src="imagens/css200.png" alt="logo CSS5">
+
+    <hr>
+    
+    <h3>Negrito</h3>
+    <p>Pra colocar palavras em <b>negrito</b> coloca a tag &lt;b&gt; ou &lt;strong&gt;</p>
+
+    <h3>Itálico</h3>
+    <p>pra colocar um termo em <i>itálico</i>, é com a tag &lt;i&gt;</p>
+    <p>Neste parágrafo temos <b><em>um termo em ênfase</em></b> usando a tag &lt;em&gt;</p>
+
+    <h3>Marca texto</h3>
+    <p>Como um <mark>marcador</mark>, o texto ficará assim</p>
+    <p>a tag usada é &lt;mark&gt;</p>
+
+    <h3>Texto deletado</h3>
+    <p>para escrever um texto lido mas <del>deletado</del></p>
+    <p>usa a tag &lt;del&gt; </p>
+
+    <h3>Texto inserido</h3>
+    <p>texto com <ins>sublinhação</ins></p>
+    <p>usa a tag &lt;ins&gt;</p>
+
+    <h3>código-fonte</h3>
+    <pre>
+        <code>
+    #include &lt;stdio.h&gt;
+
+    int main(){
+        
+        printf("Hellow, world")
+    }
+        </code>
+    </pre>
+    <p>é escrito com a tag &lt;code&gt; </p>
+    <p>A tag &lt;pre&gt; serve para formatar do jeito como está no código, com espaços e quebras de linhas </p>
+
+    <h3>Citações</h3>
+    <p>Citações com aspas <q>citação simples</q></p>
+    <p>Usa a tag &lt;q&gt;</p>
+    <p><strong>Citações compostas</strong> com alguma frase foda de efeito</p>
+    <blockquote>De acordo com Albert Einstein, Eu sabo muito.</blockquote>
+    <p>Se escreve com a tag &lt;blockquote&gt;</p>
+
+    <h3>Abreviações</h3>
+    <p>aqui eu estou escrevendo a sigla <abbr title="pesquisa no google mane">IBGE</abbr>, descobre o siginficado no sitekkkkkk</p>
+    <p>É escrito com a tag &lt;abbr&gt;</p>
+
+    <h3>Listas</h3>
+    <ul><li><strong>Lista Ordenada</strong></li></ul>
+    <ol type="">
+        <li>Acordar</li>
+        <ul type="square">
+            <li>abrir o olha</li>
+            <li>levantar</li>
+            <li>abrir a porta e sair do quarto</li>
+        </ul>
+        <li>Tomar banho</li>
+        <li>comer</li>
+        <li>estudar</li>
+        <li>assistir</li>
+    </ol>
+    <p>Se escreve dentro da Tag &lt;ol&gt; e com &lt;li&gt; em cada linha, para escrever um tipo &lt;ol type="escolhe o tipo"&gt;</p>
+
+    <ul><li><strong>Lista não-ordenada</strong></li></ul>
+    <p>Se escreve dentro da Tag &lt;ul&gt; e com &lt;li&gt; em cada linha, para escrever um tipo &lt;ul type="escolhe o tipo"&gt;</p>
+
+    <ul>
+        <li><strong>Lista de Definições</strong></li>
+    </ul>
+    <dl>
+        <dt>HTLM</dt>
+        <dd>É uma linguagem de marcação para a criação de sites na web</dd>
+    </dl>
+    <p>É como um dicionárioSe escreve com as tags &lt;dl&gt;, &lt;dt&gt; e &lt;dd&gt;</p>
+
+    <h3>Linkar uma página a outra</h3>
+    <p>quando vc clica em uma palavra e ela te leva a outro site, <a href="outofestudo.html/index.html">clique aqui</a> (projeto secreto) </p>
+    <p>Acesse ao site do YouTube por link externo (blank vai abrir uma nova aba)
+        <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY" target="_blank" rel="external">
+            clique aqui
+        </a></p>
+
+    <h3>Link para download</h3>
+    <ul>
+        <li><a href="download/TrabalhoPI(2).zip" download="TrabalhoPI(2).zip" type="application/zip">
+            Baixar o arquivo em ZIP</a></li>
+    </ul>
+</body>
+</html>
